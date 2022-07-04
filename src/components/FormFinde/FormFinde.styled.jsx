@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 export const FormFind = styled.form`
-  /* margin: auto; */
   position: relative;
   width: 100%;
   max-width: 17em;
