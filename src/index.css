@@ -93,6 +93,15 @@ h1 {
     transform: translate(0, -1em) rotate(-180deg) translate(7.5em, -0.25em);
   }
 }
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
 /* ---------------------------------------------------------------- */
 ::-webkit-scrollbar {
   width: 12px;

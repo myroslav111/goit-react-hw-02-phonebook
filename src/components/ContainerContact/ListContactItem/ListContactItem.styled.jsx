@@ -16,7 +16,7 @@ export const ButtonDelete = styled.button`
   align-items: center;
   font-family: inherit;
   font-size: 25px;
-  color: red;
+  color: black;
   padding: 0;
   width: 60px;
   height: 25px;
@@ -30,6 +30,32 @@ export const ButtonDelete = styled.button`
   cursor: pointer;
   &:active {
     box-shadow: none;
+  }
+
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  z-index: 1;
+  &:hover {
+    animation: animate 8s linear infinite;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  &:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
   }
 `;
 
