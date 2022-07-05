@@ -1,11 +1,11 @@
 import React from 'react';
-import { ListWraper } from './ContainerContact.styled';
+import { ListWraper, BoxList } from './ContainerContact.styled';
 import ListContactItem from './ListContactItem';
 import PropTypes from 'prop-types';
 
 const ContainerContact = ({ arrContacts, onDeleteContact }) => {
   return (
-    <div>
+    <BoxList>
       <ListWraper>
         {arrContacts.map(contact => (
           <ListContactItem
@@ -15,7 +15,7 @@ const ContainerContact = ({ arrContacts, onDeleteContact }) => {
           />
         ))}
       </ListWraper>
-    </div>
+    </BoxList>
   );
 };
 
