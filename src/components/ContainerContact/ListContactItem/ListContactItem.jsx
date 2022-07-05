@@ -1,13 +1,13 @@
 import React from 'react';
-import { ButtonDelete, Item } from './ListContactItem.styled';
+import { ButtonDelete, Item, Name, Number } from './ListContactItem.styled';
 import PropTypes from 'prop-types';
 
 const ListContactItem = ({ arrContacts, onDeleteContact }) => {
   return (
     <Item>
       <div>
-        <span>{arrContacts.name}: </span>
-        <span>{arrContacts.number} </span>
+        <Name>{arrContacts.name}: </Name>
+        <Number>{arrContacts.number} </Number>
       </div>
 
       <ButtonDelete

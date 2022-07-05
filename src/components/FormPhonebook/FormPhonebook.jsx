@@ -9,15 +9,8 @@ class FormPhonebook extends Component {
     name: '',
     number: '',
   };
-  // // записываем значение инпута name деревянный метод
-  // handleChangeByName = e => {
-  //   this.setState({ name: e.currentTarget.value });
-  // };
-  // // записываем значение инпута number деревянный метод
-  // handleChangeByNumber = e => {
-  //   this.setState({ number: e.currentTarget.value });
-  // };
-
+  
+  // записываем значение инпута name деревянный метод
   handleChange = evt => {
     const { name, value } = evt.target;
     this.setState({ [name]: value });

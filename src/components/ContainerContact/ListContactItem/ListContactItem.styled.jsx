@@ -11,7 +11,12 @@ export const Item = styled.li`
 
 export const ButtonDelete = styled.button`
   position: relative;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 25px;
+  color: red;
   padding: 0;
   width: 60px;
   height: 25px;
@@ -26,4 +31,13 @@ export const ButtonDelete = styled.button`
   &:active {
     box-shadow: none;
   }
+`;
+
+export const Name = styled.span`
+  font-size: 30px;
+  margin-right: 10px;
+`;
+
+export const Number = styled.span`
+  font-size: 30px;
 `;

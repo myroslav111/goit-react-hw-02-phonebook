@@ -5,7 +5,7 @@ export const InputWrap = styled.label`
   flex-direction: column;
   width: 80%;
   font-family: 'The Nautigal', cursive;
-  font-size: 20px;
+  font-size: 25px;
 `;
 export const InputBook = styled.input`
   border: none;

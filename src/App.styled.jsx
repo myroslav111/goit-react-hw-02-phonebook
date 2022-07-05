@@ -7,4 +7,5 @@ export const MainBoxApp = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'The Nautigal', cursive;
 `;

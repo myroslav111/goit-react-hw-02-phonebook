@@ -2,7 +2,8 @@ import styled from '@emotion/styled';
 
 export const ButtonSubmit = styled.button`
   position: relative;
-
+  font-family: inherit;
+  font-size: 25px;
   padding: 0;
   width: 200px;
   height: 50px;
